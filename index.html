@@ -6,56 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="all.css" />
-    <title>Bootstrap Exersise 1</title>
+    <title>SPORTiFOOT</title>
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">SPORTiFOOT</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact us</a>
-            </li>
-          </ul>
+
+    <div id="socialmedia-icons" class="d-flex flex-column justify-content-center align-items-center">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="container">
+    <section class="home-section d-flex flex-column ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light flex-fixed">
+        <!-- <div class="container"> -->
+          <a class="navbar-brand" href="#">SPORTiFOOT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+            
+          </div>
+
+          <form class="d-flex d-none d-lg-block ml-10">
+            <label> <a href="#"class="text-decoration-none color-primary" > <i class="fa-solid fa-phone"></i> 9605965522</a></label>
+          </form>
+
+        <!-- </div> -->
+      </nav>
+
+      <div class="content flex-fill">
+        <div class="d-flex align-items-center justify-content-center h-100">
+          <div class="heading">
+            <h1>SPORTiFOOT</h1>
+            <p class="keywords d-inline"><span>makes</span> <span>sports</span> <span>easy</span></p>
+          </div>
         </div>
+        <img class="w-50" src="assets/image/Football_Player.png" alt="sportifoot">
+        <div id="line1"></div>
+        <div id="line2"></div>
       </div>
-    </nav>
-
-    <header>
-      <div class="container">
-        <div id="image">
-          <img src="assets/image/Football_Player.png" alt="sportifoot">
-        </div>
-        <!-- content -->
-        <div id="content">
-          <h2>SPORTiFOOT</h2>
-        </div>
-
-        <!-- icons -->
-        <div class="d-flex flex-column justify-content-center align-items-center" id="icons">
-            <!-- visit => "fontawesome.com" for icons -->
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-      </div>
-    </header>
-
-    
+    </section>
+    </div>
       
       <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
 </body>
